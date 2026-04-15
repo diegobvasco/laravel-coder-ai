@@ -2,9 +2,9 @@
 
 namespace DiegoVasconcelos\CoderAi;
 
+use DiegoVasconcelos\CoderAi\Commands\CoderAiCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DiegoVasconcelos\CoderAi\Commands\CoderAiCommand;
 
 class CoderAiServiceProvider extends PackageServiceProvider
 {

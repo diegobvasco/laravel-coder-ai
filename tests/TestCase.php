@@ -2,9 +2,9 @@
 
 namespace DiegoVasconcelos\CoderAi\Tests;
 
+use DiegoVasconcelos\CoderAi\CoderAiServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use DiegoVasconcelos\CoderAi\CoderAiServiceProvider;
 
 class TestCase extends Orchestra
 {
