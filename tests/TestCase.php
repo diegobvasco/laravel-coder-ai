@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace DiegoVasconcelos\CoderAi\Tests;
 
 use DiegoVasconcelos\CoderAi\CoderAiServiceProvider;
