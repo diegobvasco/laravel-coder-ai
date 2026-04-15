@@ -20,8 +20,6 @@ class CoderAiServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-coder-ai')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel_coder_ai_table')
             ->hasCommand(CoderAiCommand::class);
     }
 }
